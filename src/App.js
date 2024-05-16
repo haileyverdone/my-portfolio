@@ -1,19 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles/App.css';
-import Header from './components/Header';
-import Introduction from './components/Introduction';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Header from './componets/Header';
+import Introduction from './componets/Introduction';
+import Skills from './componets/Skills';
+import Projects from './componets/Projects';
+import Contact from './componets/Contact';
 
 function App() {
+  const [view, setView] = useState('introduction');
+
   return (
     <div className="App">
-      <Header />
-      <Introduction />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Header setView={setView} />
+      {view === 'introduction' && <Introduction />}
+      {view === 'skills' && <Skills />}
+      {view === 'projects' && <Projects />}
+      {view === 'contact' && <Contact />}
     </div>
   );
 }

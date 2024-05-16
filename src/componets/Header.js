@@ -1,17 +1,18 @@
 import React from "react";
 
-const Header = () => (
-    <header>
-        <h1> My Portfolio </h1>
-        <nav>
-            <u1>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="skills">Skills</a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="contact">Contact</a></li>
-            </u1>
-        </nav>
+
+const Header = ({ setView }) => (
+    <header className="App-header">
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><button onClick={() => setView('introduction')}>Introduction</button></li>
+          <li><button onClick={() => setView('skills')}>Skills</button></li>
+          <li><button onClick={() => setView('projects')}>Projects</button></li>
+          <li><button onClick={() => setView('contact')}>Contact</button></li>
+        </ul>
+      </nav>
     </header>
-);
+  );
 
 export default Header;

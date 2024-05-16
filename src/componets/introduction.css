@@ -1,0 +1,11 @@
+.introduction-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+  }

@@ -5,7 +5,7 @@ const Projects = ()=> (
         <h2>Projects</h2>
         <div>
         <h3> Project 1</h3>
-        <p> Description </p>
+        <p> Currently... no projects to showcase. </p>
         </div>
    </section>
 );
