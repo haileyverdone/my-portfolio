@@ -3,7 +3,7 @@ import './introduction.css';
 
 const Introduction = () => (
     <section id="introduction">
-        <h2>Introduction</h2>
+        <h2>About Me </h2>
         {/* #Import a Portolio Image */}
         <img src={`${process.env.PUBLIC_URL}/selfie.jpeg`} alt="selfie" className="profile-image" />
         {/* #Summary of myself */}

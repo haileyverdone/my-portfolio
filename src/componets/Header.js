@@ -7,7 +7,7 @@ const Header = ({ setView }) => (
       <nav>
         {/* Make button for each seperate tabs */}
         <ul>
-          <li><button onClick={() => setView('introduction')}>Introduction</button></li>
+          <li><button onClick={() => setView('introduction')}>About Me</button></li>
           <li><button onClick={() => setView('skills')}>Skills</button></li>
           <li><button onClick={() => setView('projects')}>Projects</button></li>
           <li><button onClick={() => setView('contact')}>Contact</button></li>
