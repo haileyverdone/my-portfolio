@@ -8,7 +8,7 @@ import Contact from './componets/Contact';
 
 function App() {
   const [view, setView] = useState('introduction');
-
+  // #create tabs
   return (
     <div className="App">
       <Header setView={setView} />

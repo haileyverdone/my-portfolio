@@ -2,9 +2,9 @@ import React from "react";
 
 const Projects = ()=> (
     <section id="projects">
+        {/* List of current Projects */}
         <h2>Projects</h2>
         <div>
-        <h3> Project 1</h3>
         <p> Currently... no projects to showcase. </p>
         </div>
    </section>

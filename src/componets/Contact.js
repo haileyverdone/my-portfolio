@@ -2,6 +2,7 @@ import React from 'react';
 
 const Contact = () => (
   <section id="contact">
+    {/* Create Contact Form */}
     <h2>Contact</h2>
     <form>
       <label>
